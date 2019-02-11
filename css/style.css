@@ -139,19 +139,20 @@ h3.heading {
   border-radius: 100%;
   color: white;
   font-size: .9rem;
-  padding-top: 30px; 
+  padding-top: 30px;
+  text-shadow: .1rem .1rem .5rem black;
 }
 
-.jumbotron {
+.specials {
   margin-bottom: 0;
-  padding: 0.5rem 0 2.5rem;
+  padding: 0.7rem 0 1.5rem;
   border-radius: 0;
-  background-color: #c6b100;
+  background-color: #2AA8CF;
 }
 
 .col-12 h1 {
-  float: left;
   color: white;
+  text-shadow: .1rem .1rem .4rem black;
 }
 
 .btn-secondary {
@@ -165,7 +166,7 @@ h3.heading {
 
 h3.heading-2 {
   font-size: 1.9rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   color: white;
 }
 
@@ -188,8 +189,8 @@ h3.heading-2 {
 
 h3.heading-3 {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
-  padding-top: 2rem;
+  margin-bottom: 0.2rem;
+  padding-top: 1.5rem;
   color: black;
 }
 
