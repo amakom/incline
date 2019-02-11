@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Poppins');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #505962;
+}
+
+/*<----NAVIGATION SECTION--->*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: 0rem;
+  background: rgba(0, 0, 0, 0.0)!important;
+  padding-top: 3rem;
+  box-sizing: border-box;
+  transition: all .5s;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: lowercase !important;
+  font-size: 30px;
+  padding-left: 1rem;
+  color: #fff !important;
+}
+
+
+.navbar-nav li {
+  padding-right: .5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding-top: .5rem;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+   color: #c6b100;
+ }
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/* Start Wave*/
+.wave{
+  position: absolute;
+  color: #FFFFFF;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  width: 200%;
+  background-position: 0 bottom;
+  background-repeat: repeat-x;
+  transform-origin: center bottom;
+}
+
+
+@keyframes waves {
+  0% {transform: translateX(0) translateZ(0) scaleY(1);}
+  0% {transform: translateX(-25%) translateZ(0) scaleY(.5);}
+  0% {transform: translateX(-50%) translateZ(0) scaleY(1);}
+}
+/*  End Wave*/
+
+ .caption {
+   width: 100%;
+   max-width: 100%;
+   position: absolute;
+   top: 38%;
+   z-index: 1;
+   color: white;
+   text-transform: uppercase;
+ }
+ .caption h1 {
+   font-size: 2.8rem;
+   font-weight: 700;
+   letter-spacing: .1.5rem;
+   text-shadow: .1rem .1rem .9rem black;
+   padding-bottom: 1rem;
+ }
+ .caption h3{
+   font-size: 2rem;
+   text-shadow: .1rem .1rem .5rem black;
+   padding-bottom: 1.6rem;
+ }
+
+  .btn-lg {
+   background: #7000b3;
+   border-width: medium;
+   border-radius: 28px;
+   color: #ffffff;
+   padding: .6rem 1.3rem;
+   font-size: 1.1rem;
+ }
+
+/*--- Start Service Section --*/
+
+h3.heading {
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #c6b100;
+  margin: 0 auto 2rem;
+}
+
+.narrow {
+  margin-top: 0;
+  width: 75%;
+  margin: 1.5rem auto;
+  padding: 2rem 0 3.5;
+  padding-top: 4rem;
+  
+}
+
+.narrow h4 {
+  font-size: 1.3rem;
+  margin: 0 auto 2rem;
+}
+.icon {
+  background-image: linear-gradient(to left bottom, #2e243f, #3f2652, #552562, #6f1d6f, #8c0078);
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 1.5rem;
+  border-radius: 100%;
+  color: white;
+  font-size: .9rem;
+  padding-top: 30px; 
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 0.5rem 0 2.5rem;
+  border-radius: 0;
+  background-color: #c6b100;
+}
+
+.col-12 h1 {
+  float: left;
+  color: white;
+}
+
+.btn-secondary {
+  float: right;
+  background: #fff !important;
+  border-radius: 28px;
+  color: #505962;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+h3.heading-2 {
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+
+.fixed{
+  background-image: url(img/background2.jpg);
+  z-index: -1;
+}
+.dark {
+  background-color: rgba(50, 38, 130, 0.9);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+h3.heading-3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  padding-top: 2rem;
+  color: black;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 30%;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  
+}
+
+.portfolio img {
+  width: 100%;
+  height: 200px;
+}
+  
