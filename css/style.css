@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
 body {
   overflow-x: hidden;
@@ -6,16 +6,39 @@ body {
   color: #505962;
 }
 
+header {
+  background-image: linear-gradient(to bottom, #2e243f, #332345, #3a224a, #411f4f, #491c53, #501a57, #57185b, #5f145e, #671263, #6f0f67, #770b6c, #7f0570);
+}
+
 /*<----NAVIGATION SECTION--->*/
 .navbar {
   text-transform: uppercase;
+  border:none !important;
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: 0rem;
-  background: rgba(0, 0, 0, 0.0)!important;
+  background: transparent!important;
   padding-top: 3rem;
-  box-sizing: border-box;
   transition: all .5s;
+}
+
+.navbar.compressed {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white !important;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand.black {
+  color: #6B0061 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.color {
+  color: #6B0061 !important;
+}
+
+.fa-bars.icons {
+  color: #6B0061 !important;
 }
 
 .navbar-brand {
@@ -28,12 +51,13 @@ body {
 
 
 .navbar-nav li {
-  padding-right: .5rem;
+  padding-right: .2rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
   padding-top: .5rem;
+  padding-left: 0.3rem;
 }
 
 .fa-bars {
@@ -159,9 +183,14 @@ h3.heading {
   float: right;
   background: #fff !important;
   border-radius: 28px;
-  color: #505962;
+  color: #505962 ;
   padding: .6rem 1.3rem;
   font-size: 1.1rem;
+  text-shadow: none !important;
+}
+
+.btn-secondary:hover {
+  color: #c6b100
 }
 
 h3.heading-2 {
@@ -171,7 +200,7 @@ h3.heading-2 {
 }
 
 
-.fixed{
+.fixed {
   background-image: url(img/background2.jpg);
   z-index: -1;
 }
@@ -180,9 +209,7 @@ h3.heading-2 {
   color: white;
   padding: 7rem 2rem;
 }
-.fixed-background h3 {
-  margin-bottom: 2rem;
-}
+
 .fixed-background p {
   margin-top: 1.5rem;
 }
