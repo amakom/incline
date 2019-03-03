@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
 
 body {
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins;
   color: #505962;
 }
 
+/*<----HOME SECTION--->*/
 header {
   background-image: linear-gradient(to bottom, #2e243f, #332345, #3a224a, #411f4f, #491c53, #501a57, #57185b, #5f145e, #671263, #6f0f67, #770b6c, #7f0570);
 }
 
-/*<----NAVIGATION SECTION--->*/
+/*<----HOME NAVIGATION SECTION--->*/
 .navbar {
   text-transform: uppercase;
   border:none !important;
@@ -72,8 +73,9 @@ header {
 .navbar-toggler {
   outline: none !important;
 }
+/*  End NAVIGATION*/
 
-/* Start Wave*/
+/* Start Wave SECTION--->*/
 .wave{
   position: absolute;
   color: #FFFFFF;
@@ -95,6 +97,8 @@ header {
   0% {transform: translateX(-50%) translateZ(0) scaleY(1);}
 }
 /*  End Wave*/
+
+/*--- Start HOME CAPTION Section --*/
 
  .caption {
    width: 100%;
@@ -119,7 +123,7 @@ header {
  }
 
   .btn-lg {
-   background: #7000b3;
+   background: #8c0078;
    border-width: medium;
    border-radius: 28px;
    color: #ffffff;
@@ -127,12 +131,16 @@ header {
    font-size: 1.1rem;
  }
 
+ /*--- END HOME CAPTION Section --*/
+
 /*--- Start Service Section --*/
 
 h3.heading {
-  font-size: 1.9rem;
+  font-size: 32pxc;
+  line-height: 38px;
   margin-bottom: 1.5rem;
-  color: black;
+  color: #212529;
+
 }
 
 .heading-underline {
@@ -168,11 +176,14 @@ h3.heading {
   box-shadow: 5px 10px 15px #555;
 }
 
+/*--- END Service Section --*/
+
+/*--- Start WORK TOGETHER Section --*/
 .specials {
   margin-bottom: 0;
   padding: 0.7rem 0 1.5rem;
   border-radius: 0;
-  background-color: #2AA8CF;
+  background-color: #2aa8cf;
 }
 
 .col-12 h1 {
@@ -194,9 +205,14 @@ h3.heading {
   color: #c6b100
 }
 
+/*--- END WORK TOGETHER Section --*/
+
+/*--- Start WEB DEVELOPMENT Section --*/
+
 h3.heading-2 {
-  font-size: 1.9rem;
-  margin-bottom: 1rem;
+  font-size: 32pxc;
+  line-height: 38px;
+  margin-bottom: 1.5rem;
   color: white;
 }
 
@@ -217,11 +233,14 @@ h3.heading-2 {
 }
 
 h3.heading-3 {
-  font-size: 2rem;
-  margin-bottom: 0.2rem;
-  padding-top: 1.5rem;
-  color: black;
+  font-size: 32pxc;
+  line-height: 38px;
+  margin-bottom: 1.5rem;
+  color: #212529;
 }
+/*--- END WEB DEVELOPMENT Section --*/
+
+/*--- Start PORTFOLIO Section --*/
 
 * { box-sizing: border-box; }
 
@@ -249,8 +268,9 @@ body { font-family: sans-serif; }
   width: 100%;
   height: 200px;
 }
+/*--- END PORTFOLIO Section --*/
 
-/* Number Counter */
+/* Number Counter SECTION */
 #numbers {
   background-image: linear-gradient(to bottom, #2e243f, #332345, #3a224a, #411f4f, #491c53, #501a57, #57185b, #5f145e, #671263, #6f0f67, #770b6c, #7f0570);
   padding-top: 50px;
@@ -272,6 +292,27 @@ body { font-family: sans-serif; }
   padding-top: 20px;
   color: white;
 }
+
+/* ABOUT PAGE */
+.about {
+  background-image: url("");
+}
+
+
+.fb-ic {
+  color: white !important;
+}
+
+.page-footer {
+  background: #333945;
+  color: white !important;
+}
+
+.page-footer a {
+  color: white !important;
+}
+
+
 
 
 
